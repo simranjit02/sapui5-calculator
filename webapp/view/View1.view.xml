@@ -1,0 +1,69 @@
+<mvc:View
+    controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <Label
+                id="numOne"
+                text="First Number"
+                labelFor="first-num"
+                required="true"
+            />
+            <Input
+                id="firstNum"
+                placeholder="Type a Number"
+                type="Number"
+            />
+            <Label
+                id="numTwo"
+                text="Second Number"
+                labelFor="second-num"
+                required="true"
+            />
+            <Input
+                id="secondNum"
+                placeholder="Type a Number"
+                type="Number"
+            />
+            <Button
+                id="btnAdd"
+                text="+"
+                press="onPress"
+            >
+            </Button>
+            <Button
+                id="btnminus"
+                text="-"
+                press="onPress"
+            >
+            </Button>
+            <Button
+                id="btnMultiply"
+                text="*"
+                press="onPress"
+            >
+            </Button>
+            <Button
+                id="btnDivide"
+                text="/"
+                press="onPress"
+            >
+            </Button>
+            <Label
+                id="result"
+                text="Result"
+                labelFor="Result"
+            />
+            <Input
+                id="final-result"
+                type="Number"
+            />
+        </content>
+    </Page>
+</mvc:View>
