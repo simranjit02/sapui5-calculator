@@ -3,6 +3,8 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
     xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core"
+	height="100%"
 >
     <Page
         id="page"
@@ -34,25 +36,26 @@
             <Button
                 id="btnAdd"
                 text="+"
-                press="onPress"
+                press="onAdd"
+
             >
             </Button>
             <Button
                 id="btnminus"
                 text="-"
-                press="onPress"
+                press="onMinus"
             >
             </Button>
             <Button
                 id="btnMultiply"
                 text="*"
-                press="onPress"
+                press="onMultiply"
             >
             </Button>
             <Button
                 id="btnDivide"
                 text="/"
-                press="onPress"
+                press="onDivide"
             >
             </Button>
             <Label
